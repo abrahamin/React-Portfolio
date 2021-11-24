@@ -1,4 +1,44 @@
-.App {
+.Nav {
+  height: 12vh;
+  background-color: #cad2c5;
+}
+
+#logo {
+  padding: 2vh 0vh;
+  font-family: "Lemon", cursive;
+  font-size: 300%;
+  color: #2f3e46;
+}
+
+.large-font {
+  padding: 2vh 2vh;
+  font-size: 300%;
+  color: #2f3e46;
+}
+
+.landing-text {
+  padding: 3vh 0vh;
+  font-size: 300%;
+  font-family: "Bungee Shade", cursive;
+  color: black;
+}
+
+.landing-name {
+  padding: 3vh 0vh;
+  font-size: 300%;
+  font-family: "Lemon", cursive;
+  color: black;
+}
+
+.name-color-one {
+  color: #354f52;
+}
+
+.name-color-two {
+  color: #52796f;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +75,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

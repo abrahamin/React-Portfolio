@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "materialize-css";
+import Landing from "./components/Landing";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className="Nav">
+        <div className="nav-wrapper">
+          <a href="#" id="logo" className="brand-logo center">
+            abrahamin
+          </a>
+          <ul id="nav-mobile" className="left hide-on-med-and-down">
+            <li>
+              <a href="about" className="large-font">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="portfolio" className="large-font">
+                Portfolio
+              </a>
+            </li>
+          </ul>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li>
+              <a href="contact" className="large-font">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="resume" className="large-font">
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <Landing />
     </div>
   );
 }
