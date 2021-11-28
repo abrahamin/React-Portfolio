@@ -1,0 +1,50 @@
+.About {
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vh 0 0;
+  height: 50vh;
+}
+
+.abraham {
+  padding: 2.5vh 0vh;
+  font-family: "Lemon", cursive;
+}
+
+.fullname {
+  font-size: 350%;
+}
+
+.nametag {
+  font-size: 250%;
+}
+
+.name-one {
+  color: #182523;
+}
+
+.name-two {
+  color: #314946;
+}
+
+.name-three {
+  color: #496e69;
+}
+
+.textbox {
+  padding: 0 0.5rem;
+  border: 0.25rem solid #182523;
+  border-radius: 1rem;
+  background-color: #cededc;
+}
+
+.bio {
+  font-size: 1.5rem;
+}
+
+.bullets {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,20 @@
+.Portfolio {
+}
+
+.top-project {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.bottom-project {
+  border-radius: 0 0 2rem 2rem;
+}
+
+.website {
+  color: #314946;
+}
+
+.github {
+  height: 2.5rem;
+  width: auto;
+  padding: 0rem 1.5rem;
+}

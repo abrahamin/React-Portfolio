@@ -1,17 +1,18 @@
 .Nav {
   height: 12vh;
-  background-color: #cad2c5;
+  background-color: #182523;
 }
 
 #logo {
   padding: 2vh 0vh;
   font-family: "Lemon", cursive;
-  font-size: 300%;
-  color: #2f3e46;
+  font-size: 350%;
+  color: #f3f7f6;
 }
 
-.large-font {
+.headers {
   padding: 2vh 2vh;
-  font-size: 300%;
-  color: #2f3e46;
+  font-family: "Oswald", sans-serif;
+  font-size: 200%;
+  color: #cededc;
 }

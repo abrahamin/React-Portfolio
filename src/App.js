@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
@@ -23,6 +24,9 @@ function App() {
             <Route exact path="/portfolio" element={<Portfolio />} />
           </Routes>
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </>
   );

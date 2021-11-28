@@ -10,27 +10,27 @@ export default function Nav() {
           <Link to="/" id="logo" className="brand-logo center">
             abrahamin
           </Link>
-          <ul id="nav-mobile" className="left hide-on-med-and-down">
+          <ul id="nav-mobile" className="left">
             <li>
-              <Link to="/about" className="large-font">
-                About Me
+              <Link to="/about" className="headers">
+                ABOUT
               </Link>
             </li>
             <li>
-              <Link to="/portfolio" className="large-font">
-                Portfolio
+              <Link to="/portfolio" className="headers">
+                PORTFOLIO
               </Link>
             </li>
           </ul>
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="right">
             <li>
-              <Link to="/contact" className="large-font">
-                Contact
+              <Link to="/contact" className="headers">
+                CONTACT
               </Link>
             </li>
             <li>
-              <Link to="/resume" className="large-font">
-                Resume
+              <Link to="/resume" className="headers">
+                RESUME
               </Link>
             </li>
           </ul>

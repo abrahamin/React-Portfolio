@@ -1,21 +1,23 @@
-.landing-text {
+.Landing {
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+}
+
+.introduction {
+  padding: 25vh 0vh;
+}
+
+.intro-one {
+  padding: 3vh 0vh;
+  font-size: 500%;
+  font-family: "Bungee Shade", cursive;
+}
+
+.intro-two {
   padding: 3vh 0vh;
   font-size: 300%;
   font-family: "Bungee Shade", cursive;
-  color: black;
-}
-
-.landing-name {
-  padding: 3vh 0vh;
-  font-size: 300%;
-  font-family: "Lemon", cursive;
-  color: black;
-}
-
-.name-color-one {
-  color: #354f52;
-}
-
-.name-color-two {
-  color: #52796f;
 }
