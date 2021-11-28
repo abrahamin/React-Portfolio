@@ -1,44 +1,30 @@
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Landing from "./components/Landing";
+import Nav from "./components/Nav";
+import Portfolio from "./components/Portfolio";
 import "./App.css";
 import "materialize-css";
-import Landing from "./components/Landing";
 
 function App() {
   return (
-    <div className="App">
-      <nav className="Nav">
-        <div className="nav-wrapper">
-          <a href="#" id="logo" className="brand-logo center">
-            abrahamin
-          </a>
-          <ul id="nav-mobile" className="left hide-on-med-and-down">
-            <li>
-              <a href="about" className="large-font">
-                About Me
-              </a>
-            </li>
-            <li>
-              <a href="portfolio" className="large-font">
-                Portfolio
-              </a>
-            </li>
-          </ul>
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li>
-              <a href="contact" className="large-font">
-                Contact
-              </a>
-            </li>
-            <li>
-              <a href="resume" className="large-font">
-                Resume
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <Landing />
-    </div>
+    <>
+      <div className="App">
+        <header>
+          <Nav />
+        </header>
+        <main>
+          <Routes>
+            <Route exact path="/" element={<Landing />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/portfolio" element={<Portfolio />} />
+          </Routes>
+        </main>
+      </div>
+    </>
   );
 }
 

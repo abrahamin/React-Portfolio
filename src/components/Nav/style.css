@@ -1,0 +1,17 @@
+.Nav {
+  height: 12vh;
+  background-color: #cad2c5;
+}
+
+#logo {
+  padding: 2vh 0vh;
+  font-family: "Lemon", cursive;
+  font-size: 300%;
+  color: #2f3e46;
+}
+
+.large-font {
+  padding: 2vh 2vh;
+  font-size: 300%;
+  color: #2f3e46;
+}
