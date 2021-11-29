@@ -45,8 +45,8 @@ const Portfolio = () => {
                 </a>
               </h2>
               <p className="grey-text text-darken-3 lighten-3">
-                Redux Store // click the title to access the deployed
-                application
+                Redux Store // Click the title to access the deployed
+                application // Click the GitHub icon to access the repository
               </p>
             </div>
           </div>

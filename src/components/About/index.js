@@ -33,15 +33,14 @@ export default function About() {
               multifaceted products that please the client. With each project,
               my passion is to create a memorable user experience and shape a
               culture of premium web experiences and products.
+              <ul className="bullets">
+                <li>
+                  B.S. from Wake Forest University - Major in Biology, Minor in
+                  Chemistry
+                </li>
+                <li>Latte art enthusiast</li>
+              </ul>
             </p>
-            <br></br>
-            <ul className="bullets">
-              <li>
-                B.S. from Wake Forest University - Major in Biology, Minor in
-                Chemistry
-              </li>
-              <li>Latte art enthusiast</li>
-            </ul>
           </div>
         </div>
       </div>

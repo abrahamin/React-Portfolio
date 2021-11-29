@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import resume from "../../assets/resume.pdf";
 import "./style.css";
 
 export default function Nav() {
@@ -29,7 +30,7 @@ export default function Nav() {
               </Link>
             </li>
             <li>
-              <Link to="/resume" className="headers">
+              <Link to={resume} target="_blank" className="headers">
                 RESUME
               </Link>
             </li>
