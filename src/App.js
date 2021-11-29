@@ -18,7 +18,7 @@ function App() {
         </header>
         <main>
           <Routes>
-            <Route exact path="/" element={<Landing />} />
+            <Route exact path="/React-Portfolio" element={<Landing />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/portfolio" element={<Portfolio />} />

@@ -8,7 +8,7 @@ export default function Nav() {
     <>
       <nav className="Nav">
         <div className="nav-wrapper">
-          <Link to="/" id="logo" className="brand-logo center">
+          <Link to="/React-Portfolio" id="logo" className="brand-logo center">
             abrahamin
           </Link>
           <ul id="nav-mobile" className="left">
