@@ -9,9 +9,9 @@ export default function Contact() {
   return (
     <>
       <div className="Contact">
-        <div className="container center-align">
+        <div className="container center-align phone-case">
           <div className="icon-links">
-            <div className="links">Links:</div>
+            <div className="links">Contact Me:</div>
             <div>
               <a
                 href="https://www.linkedin.com/in/abraham-hong/"

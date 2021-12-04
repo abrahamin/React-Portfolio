@@ -1,4 +1,10 @@
 .Contact {
+  background-image: url("../../images/background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.phone-case {
   padding: 5vh 0;
 }
 
@@ -19,4 +25,17 @@
   height: 12.5rem;
   width: 12.5rem;
   padding: 1.5rem 1.5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .icon-links {
+    padding: 27.5vh 0;
+  }
+  .links {
+    font-size: 200%;
+  }
+  .icons {
+    height: 10rem;
+    width: 10rem;
+  }
 }

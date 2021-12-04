@@ -4,6 +4,7 @@ import "./style.css";
 import bookSearch from "../../images/book-search.png";
 import budgetTracker from "../../images/budget-tracker.png";
 import fitnessTracker from "../../images/fitness-tracker.png";
+import jungsJoeys from "../../images/jungs-joeys.png";
 import professionalEyes from "../../images/professionaleyes.png";
 import reduxStore from "../../images/redux-store.png";
 import twoCity from "../../images/two-city.png";
@@ -22,6 +23,40 @@ const Portfolio = () => {
         <br></br>
         <div className="container">
           <div className="section white top-project">
+            <div className="row container">
+              <h2 className="header">
+                <a
+                  href="https://jungsjoeys.herokuapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="website"
+                >
+                  Jung's Joeys
+                </a>
+                <a
+                  href="https://github.com/abrahamin/Jungs-Joeys"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src={githubIcon}
+                    alt="github icon"
+                    className="github"
+                  ></img>
+                </a>
+              </h2>
+              <p className="grey-text text-darken-3 lighten-3">
+                Jung's Joeys // Click the title to access the deployed
+                application // Click the GitHub icon to access the repository
+              </p>
+            </div>
+          </div>
+          <div className="parallax-container">
+            <div className="parallax">
+              <img src={jungsJoeys} alt="jung's joeys screenshot" />
+            </div>
+          </div>
+          <div className="section white">
             <div className="row container">
               <h2 className="header">
                 <a
@@ -44,10 +79,7 @@ const Portfolio = () => {
                   ></img>
                 </a>
               </h2>
-              <p className="grey-text text-darken-3 lighten-3">
-                Redux Store // Click the title to access the deployed
-                application // Click the GitHub icon to access the repository
-              </p>
+              <p className="grey-text text-darken-3 lighten-3">Redux Store</p>
             </div>
           </div>
           <div className="parallax-container">

@@ -1,4 +1,7 @@
 .About {
+  background-image: url("../../images/background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .headshot {
@@ -35,11 +38,11 @@
 }
 
 .textbox {
-  height: 110vh;
   background-image: url("../../images/screen.png");
-  background-size: contain;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+  height: 110vh;
 }
 
 .bio {
@@ -49,4 +52,108 @@
 
 .bullets {
   font-size: 1.25rem;
+}
+
+.skills {
+  padding: 5vh 0;
+  font-size: 300%;
+}
+
+.skills i {
+  padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 1650px) {
+  .bio {
+    padding: 10vh 10vh;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .skills {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .bio {
+    font-size: 1.4rem;
+  }
+  .bullets {
+    font-size: 1.2rem;
+  }
+  .skills {
+    padding: 5vh 0;
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .textbox {
+    height: 90vh;
+  }
+  .bio {
+    font-size: 1.2rem;
+  }
+  .bullets {
+    font-size: 1rem;
+  }
+  .skills {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .textbox {
+    height: 70vh;
+  }
+  .bio {
+    font-size: 0.9rem;
+    padding: 7.5vh 7.5vh;
+  }
+  .bullets {
+    font-size: 0.75rem;
+  }
+  .skills {
+    padding: 1.5vh 0;
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bio {
+    font-size: 0.8rem;
+  }
+  .bullets {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .textbox {
+    height: 55vh;
+  }
+  .bio {
+    font-size: 0.75rem;
+    padding: 5vh 5vh;
+  }
+  .bullets {
+    font-size: 0.6rem;
+  }
+  .skills {
+    padding: 0;
+    font-size: 125%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .bio {
+    font-size: 0.65rem;
+  }
+  .bullets {
+    font-size: 0.55rem;
+  }
+  .skills {
+    font-size: 125%;
+  }
 }
