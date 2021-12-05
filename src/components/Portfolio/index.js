@@ -45,9 +45,24 @@ const Portfolio = () => {
                   ></img>
                 </a>
               </h2>
+              <p className="grey-text text-darken-3 lighten-3 instructions">
+                Click the title to access the deployed application // Click the
+                GitHub icon to access the repository
+              </p>
               <p className="grey-text text-darken-3 lighten-3">
-                Jung's Joeys // Click the title to access the deployed
-                application // Click the GitHub icon to access the repository
+                Jung's Joeys is a full-stack web application that serves as a
+                study forum for coding bootcamp students. Users can create a
+                profile to gain CRUD functionality and access to study topics,
+                posts, and comments. Additional functionality includes a chat
+                room where users can communicate virtually via the Video SDK
+                API.
+              </p>
+              <p className="technologies">
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mongodb-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-graphql-plain"></i>
               </p>
             </div>
           </div>
@@ -79,7 +94,21 @@ const Portfolio = () => {
                   ></img>
                 </a>
               </h2>
-              <p className="grey-text text-darken-3 lighten-3">Redux Store</p>
+              <p className="grey-text text-darken-3 lighten-3">
+                An e-commerce platform where users can register for an account,
+                select from various categories, choose products and view their
+                details, and add/remove from the shopping cart. Stripe is used
+                to process payment checkouts. The global state of the
+                application is managed by Redux.
+              </p>
+              <p className="technologies">
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mongodb-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-graphql-plain"></i>
+                <i class="devicon-redux-original"></i>
+              </p>
             </div>
           </div>
           <div className="parallax-container">
@@ -110,7 +139,21 @@ const Portfolio = () => {
                   ></img>
                 </a>
               </h2>
-              <p className="grey-text text-darken-3 lighten-3">Book Search</p>
+              <p className="grey-text text-darken-3 lighten-3">
+                A full-stack web application that allows users to search for
+                books based on keywords. Creating an account provides
+                functionality to add desired books to the user's account and
+                remove previously saved books. The application has an Apollo
+                Server that uses GraphQL queries and mutations to fetch and
+                modify data.
+              </p>
+              <p className="technologies">
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mongodb-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-graphql-plain"></i>
+              </p>
             </div>
           </div>
           <div className="parallax-container">

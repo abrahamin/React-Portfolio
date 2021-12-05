@@ -18,3 +18,12 @@
   width: auto;
   padding: 0rem 1.5rem;
 }
+
+.instructions {
+  font-style: italic;
+}
+
+.technologies i {
+  font-size: 200%;
+  padding: 0 0.5rem;
+}
