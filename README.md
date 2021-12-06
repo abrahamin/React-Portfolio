@@ -4,7 +4,7 @@
 
 As a web developer, I need to showcase my projects to recruiters/clients and share my work with other developers to collaborate on future projects. This repository contains my portfolio, made with React. The application is deployed to GitHub Pages.
 
-User Story:
+## User Story
 
 ```
 AS AN employer looking for candidates with experience building single-page applications
@@ -12,7 +12,7 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 
-Features:
+## Features
 
 - A single-page application portfolio with clickable navigation titles
 - About section presenting a recent photo and a short bio
