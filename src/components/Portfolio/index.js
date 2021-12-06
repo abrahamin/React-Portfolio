@@ -57,6 +57,7 @@ const Portfolio = () => {
                 room where users can communicate virtually via the Video SDK
                 API.
               </p>
+              <p className="instructions">Technologies Used:</p>
               <p className="technologies">
                 <i class="devicon-nodejs-plain"></i>
                 <i class="devicon-express-original"></i>
@@ -185,7 +186,16 @@ const Portfolio = () => {
                 </a>
               </h2>
               <p className="grey-text text-darken-3 lighten-3">
-                Budget Tracker
+                A full-stack web application that allows users to add expenses
+                and deposits to form their overall budget. The application was
+                made so that users can input their budget with or without a
+                connection, with transactions populating the database whenever
+                connection becomes available.
+              </p>
+              <p className="technologies">
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mongodb-plain"></i>
               </p>
             </div>
           </div>
@@ -218,7 +228,16 @@ const Portfolio = () => {
                 </a>
               </h2>
               <p className="grey-text text-darken-3 lighten-3">
-                Fitness Tracker
+                A full-stack web application for creating and logging daily
+                workouts. Users are provided the functionality to log multiple
+                resistance or cardio-based exercises to a new or current workout
+                plan, with a stat page that returns the combined weight and
+                duration of the past seven workouts.
+              </p>
+              <p className="technologies">
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mongodb-plain"></i>
               </p>
             </div>
           </div>
@@ -251,7 +270,18 @@ const Portfolio = () => {
                 </a>
               </h2>
               <p className="grey-text text-darken-3 lighten-3">
-                ProfessionalEyes
+                A full-stack web application that filters user inputted message
+                content in order to produce a more professional email,
+                effectively communicating the user's desired message. The
+                project utilizes the Model-View-Controller paradigm in
+                conjunction with server-side APIs and user authentication.
+              </p>
+              <p className="technologies">
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mysql-plain"></i>
+                <i class="devicon-sequelize-plain"></i>
+                <i class="devicon-handlebars-plain"></i>
               </p>
             </div>
           </div>
@@ -284,7 +314,16 @@ const Portfolio = () => {
                 </a>
               </h2>
               <p className="grey-text text-darken-3 lighten-3">
-                Two-City Comparison Tool
+                A front-end web application that compares two user inputted
+                cities for data related to maps, weather, Covid-19, and jobs.
+                Client-side storage is used to save the city in the search
+                input.
+              </p>
+              <p className="technologies">
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-jquery-plain"></i>
               </p>
             </div>
           </div>
