@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.8c73dcd3.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.3636de35.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.3636de35.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.5aca524c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.5aca524c.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.a8db5277.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.a8db5277.js.map",
     "static/js/2.c2011e9d.chunk.js": "/React-Portfolio/static/js/2.c2011e9d.chunk.js",
@@ -23,13 +23,13 @@
     "static/media/phone.cfb8874e.png": "/React-Portfolio/static/media/phone.cfb8874e.png",
     "static/media/professionaleyes.85cb688b.png": "/React-Portfolio/static/media/professionaleyes.85cb688b.png",
     "static/media/redux-store.56f083f8.png": "/React-Portfolio/static/media/redux-store.56f083f8.png",
-    "static/media/resume.d3594eef.pdf": "/React-Portfolio/static/media/resume.d3594eef.pdf",
+    "static/media/resume.8a927d8f.pdf": "/React-Portfolio/static/media/resume.8a927d8f.pdf",
     "static/media/two-city.5eac2fab.png": "/React-Portfolio/static/media/two-city.5eac2fab.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a8db5277.js",
     "static/js/2.c2011e9d.chunk.js",
     "static/css/main.8c73dcd3.chunk.css",
-    "static/js/main.3636de35.chunk.js"
+    "static/js/main.5aca524c.chunk.js"
   ]
 }
