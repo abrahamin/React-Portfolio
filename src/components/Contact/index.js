@@ -32,7 +32,7 @@ export default function Contact() {
               <a href="mailto:abrahamin.html@gmail.com" rel="noreferrer">
                 <img src={email} alt="github icon" className="icons"></img>
               </a>
-              <a href="tel:6786221669" rel="noreferrer">
+              <a href="tel:3364048787" rel="noreferrer">
                 <img src={phone} alt="github icon" className="icons"></img>
               </a>
             </div>
