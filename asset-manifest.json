@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.8c73dcd3.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.5aca524c.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.5aca524c.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.a8db5277.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.a8db5277.js.map",
-    "static/js/2.c2011e9d.chunk.js": "/React-Portfolio/static/js/2.c2011e9d.chunk.js",
-    "static/js/2.c2011e9d.chunk.js.map": "/React-Portfolio/static/js/2.c2011e9d.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.3dd330e7.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.c502c42c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.c502c42c.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.2b3b1fba.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.2b3b1fba.js.map",
+    "static/js/2.dcdabb3f.chunk.js": "/React-Portfolio/static/js/2.dcdabb3f.chunk.js",
+    "static/js/2.dcdabb3f.chunk.js.map": "/React-Portfolio/static/js/2.dcdabb3f.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.8c73dcd3.chunk.css.map": "/React-Portfolio/static/css/main.8c73dcd3.chunk.css.map",
-    "static/js/2.c2011e9d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.c2011e9d.chunk.js.LICENSE.txt",
+    "static/css/main.3dd330e7.chunk.css.map": "/React-Portfolio/static/css/main.3dd330e7.chunk.css.map",
+    "static/js/2.dcdabb3f.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.dcdabb3f.chunk.js.LICENSE.txt",
     "static/media/style.css": "/React-Portfolio/static/media/background.8dca526f.png",
     "static/media/book-search.b623baa9.png": "/React-Portfolio/static/media/book-search.b623baa9.png",
     "static/media/budget-tracker.9154fa8e.png": "/React-Portfolio/static/media/budget-tracker.9154fa8e.png",
@@ -23,13 +23,13 @@
     "static/media/phone.cfb8874e.png": "/React-Portfolio/static/media/phone.cfb8874e.png",
     "static/media/professionaleyes.85cb688b.png": "/React-Portfolio/static/media/professionaleyes.85cb688b.png",
     "static/media/redux-store.56f083f8.png": "/React-Portfolio/static/media/redux-store.56f083f8.png",
-    "static/media/resume.8a927d8f.pdf": "/React-Portfolio/static/media/resume.8a927d8f.pdf",
+    "static/media/resume.ac16809b.pdf": "/React-Portfolio/static/media/resume.ac16809b.pdf",
     "static/media/two-city.5eac2fab.png": "/React-Portfolio/static/media/two-city.5eac2fab.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8db5277.js",
-    "static/js/2.c2011e9d.chunk.js",
-    "static/css/main.8c73dcd3.chunk.css",
-    "static/js/main.5aca524c.chunk.js"
+    "static/js/runtime-main.2b3b1fba.js",
+    "static/js/2.dcdabb3f.chunk.js",
+    "static/css/main.3dd330e7.chunk.css",
+    "static/js/main.c502c42c.chunk.js"
   ]
 }
